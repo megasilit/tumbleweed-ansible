@@ -11,5 +11,5 @@ Setup an OpenSUSE Tumbleweed machine up from scratch.
 
 Minimum version of ansible supported is 2.6
 
-.. |CircleCI| image:: https://circleci.com/gh/MichaelAquilina/tumbleweed-ansible.svg?style=svg
-   :target: https://circleci.com/gh/MichaelAquilina/tumbleweed-ansible
+.. |CircleCI| image:: https://circleci.com/gh/megasilit/tumbleweed-ansible.svg?style=svg
+   :target: https://circleci.com/gh/megasilit/tumbleweed-ansible
