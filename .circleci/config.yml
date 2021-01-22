@@ -5,7 +5,7 @@ version: 2
 jobs:
   lint:
     docker:
-      - image: "python:3.7-stretch"
+      - image: "python:3.9-alpine"
     steps:
       - checkout
       - run:
@@ -20,8 +20,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install Gnome pattern
-          command: zypper install -y -t pattern gnome
+          name: Install XFCE pattern
+          command: zypper install -y -t pattern xfce
       - run:
           name: Install git dependency
           command: zypper install -y git openssh
