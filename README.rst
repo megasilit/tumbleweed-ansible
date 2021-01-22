@@ -6,6 +6,7 @@ Tumbleweed Ansible
 |Maintainability|
 |Reliability|
 |Security|
+|CodeFactor|
 
 Setup an OpenSUSE Tumbleweed machine up from scratch.
 
@@ -25,6 +26,7 @@ Minimum version of ansible supported is 2.6
    :target: https://sonarcloud.io/dashboard?id=megasilit_tumbleweed-ansible
 .. |Security| image:: https://sonarcloud.io/api/project_badges/measure?project=megasilit_tumbleweed-ansible&metric=security_rating
    :target: https://sonarcloud.io/dashboard?id=megasilit_tumbleweed-ansible
-
+.. |CodeFactor| image:: https://www.codefactor.io/repository/github/megasilit/tumbleweed-ansible/badge
+   :target: https://www.codefactor.io/repository/github/megasilit/tumbleweed-ansible
 
 
