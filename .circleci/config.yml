@@ -24,7 +24,7 @@ jobs:
           command: zypper install -y -t pattern xfce
       - run:
           name: Install dependency
-          command: zypper install -y git openssh ansible
+          command: zypper install -y git openssh ansible python3-pip
       - run:
           name: Run playbook
           command: ansible-playbook -i local.inventory setup.yml
