@@ -23,14 +23,8 @@ jobs:
           name: Install XFCE pattern
           command: zypper install -y -t pattern xfce
       - run:
-          name: Install git dependency
-          command: zypper install -y git openssh
-      - run:
-          name: Install additional dependencies
-          command: zypper install -y python3-pip
-      - run:
-          name: Install ansible
-          command: pip3 install ansible
+          name: Install dependency
+          command: zypper install -y git openssh ansible
       - run:
           name: Run playbook
           command: ansible-playbook -i local.inventory setup.yml
