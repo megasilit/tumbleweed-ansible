@@ -34,7 +34,7 @@
     - npm
 
 - name: run PlugInstall on vim
-  command: "nvim +'PlugInstall --sync' +qa"
+  command: "nvim --headless +PlugInstall +qall"
   when: configuration_result.changed
 
 - name: python neovim bindings installed
